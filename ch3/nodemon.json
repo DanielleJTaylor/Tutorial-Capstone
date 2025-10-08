@@ -1,0 +1,7 @@
+{
+  "watch": ["src", ".env", "package.json"],
+  "ext": "js,json,env",
+  "ignore": ["node_modules", "src/__tests__"],
+  "exec": "node src/index.js",
+  "delay": "200"
+}

@@ -4,13 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
     "lint": "eslint src",
-    "preview": "vite preview",
     "prepare": "husky install",
     "start": "node backend/mongodbweb.js"
-
   },
   "dependencies": {
     "eslint-config-prettier": "^9.0.0",
@@ -30,11 +26,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "husky": "^8.0.3",
-    "lint-staged": "^15.1.0",cd ".\ch2"
-npm install
-node .\backend\mongodbweb.js
-# or: npm run start
-
+    "lint-staged": "^15.1.0",
     "vite": "^5.0.0"
   },
   "lint-staged": {
